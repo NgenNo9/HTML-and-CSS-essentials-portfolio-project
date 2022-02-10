@@ -20,6 +20,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #callout-wrapper {
@@ -53,7 +54,7 @@ body {
     width: 75%;
     margin: 0 auto;
     justify-content: space-between;
-    background-color: deeppink;
+    /* background-color: deeppink; */
 }
 
 #logo {
@@ -91,5 +92,41 @@ body {
     justify-content: flex-end;
     list-style: none;
 }
+
+/* Hero Section */
+
+#hero-section {
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 643px;
+    width: 100%;
+    background: url(../images/hero\ image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cover-text {
+    width: 300px;
+    height: 200px;
+    font-size: 150%;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    bottom: 40px;
+    right: 80px;
+    position: absolute;
+
+    color: #fff;
+}
+
 
 
