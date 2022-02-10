@@ -203,3 +203,37 @@ body {
     margin: 0 auto;
 }
 
+/* Our Mission Section */
+
+#our-mission-container {
+    margin: 40px auto;
+    width: 75%;
+    position: relative;
+}
+
+#our-mission-bg {
+    height: 600px;
+    background: url(../images/our-mission-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    opacity: 0.4;
+}
+
+#mission-content {
+    width: 65%;
+    margin: 40px auto;
+    top: 0;
+    text-align: center;
+    left: 200px;
+    position: absolute;
+}
+
+#mission-content h2 {
+    font-size: 300%;
+}
+
+#mission-statement {
+    font-size: 125%;
+}
