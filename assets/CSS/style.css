@@ -109,6 +109,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 12px;
 }
 
 #cover-text {
@@ -170,5 +171,35 @@ body {
     background-color: #6980FA;
     padding: 10px 25px;
     border-radius: 5px;
+}
+
+/* What We Do Section */
+
+#what-we-do {
+    background-color: lightslategray;
+    padding: 40px 0;
+}
+
+#wwd-content {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#wwd-content p {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#wwd-content button {
+    font-size: 150%;
+    padding: 10px 25px;
+    background-color: #6980FA;
+    border-radius: 5px;
+}
+
+.wwd-btn {
+    display: block;
+    margin: 0 auto;
 }
 
