@@ -10,7 +10,7 @@ body {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
     color: #000;
-    background-color: #f9f9f9;
+    background-color: #BABBBC;
 }
 
 #callout {
@@ -322,4 +322,69 @@ body {
     background-color: #6980FA;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+/* Connect WIth Us Section */
+
+#connect-container {
+    position: relative;
+}
+
+#connect-bg {
+    height: 720px;
+    background: url(../images/Together.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#connect-wrapper {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 80px;
+    position: absolute;
+    left: 215px;
+}
+
+#connect-info {
+    width: 90%;
+}
+
+#connect-form {
+    width: 90%;
+}
+
+.text-input {
+    width: 100%;
+    background: transparent;
+    border: #6980FA 1px solid;
+    line-height: 36px;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+}
+
+button[type="submit"] {
+    font-size: 150%;
+    padding: 10px 25px;
+    background-color: #6980FA;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+textarea {
+    padding: 5px
+}
+
+#connect-container {
+    margin-bottom: 40px;
+}
+
+#connect-info h2 {
+    font-size: 300%;
+}
+
+#connect-info p {
+    font-size: 125%;
 }
