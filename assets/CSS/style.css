@@ -237,3 +237,45 @@ body {
 #mission-statement {
     font-size: 125%;
 }
+
+/* Volunteer Section */
+
+#volunteering-container {
+    position: relative;
+}
+
+#volunteer-bg {
+    height: 572px;
+    background: url(../images/volunteer-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#volunteering-content {
+    width: 50%;
+    margin: 120px auto;
+    top: 0;
+    text-align: center;
+    left: 375px;
+    position: absolute;
+}
+
+#volunteering-content h2 {
+    font-size: 300%;
+}
+
+#volunteering-content p {
+    font-size: 125%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vol-btn {
+    font-size: 150%;
+    padding: 10px 25px;
+    background-color: #6980FA;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
